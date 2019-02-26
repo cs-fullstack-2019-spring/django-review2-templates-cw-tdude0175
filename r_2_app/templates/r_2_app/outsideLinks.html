@@ -1,0 +1,23 @@
+{% extends 'r_2_app/index.html' %}
+
+{% block content %}
+<tr>
+    <td>
+        album:{{song.song_album}}
+    </td>
+</tr>
+<tr>
+    <td>
+        lyrics: <a href="{{song.song_lyrics}}" target="_blank">Click Here</a>
+    </td>
+</tr>
+<tr>
+    <td>
+        audio: <a href="{{song.song_audio}}" target="_blank">Click Here</a>
+        <!--used target= _blank to open a new page-->
+    </td>
+</tr>
+<br>
+<a href="{% url 'list_songs' %}">done here</a>
+<!--goes back to main page-->
+{% endblock content %}

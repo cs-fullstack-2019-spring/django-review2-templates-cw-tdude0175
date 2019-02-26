@@ -1,0 +1,20 @@
+{% extends 'r_2_app/index.html' %}
+
+{% block content %}
+
+    <tr>
+        <th>
+            title:{{song.song_title}}
+        </th>
+    </tr>
+    <tr>
+        <td>
+        band:{{song.song_band}}
+        </td>
+    </tr>
+<br>
+<a href="{% url 'list_songs' %}">done here</a>
+<br>
+<a href="{% url 'moreDetails' song.song_id %}">more Details</a>
+<!--this link goes to more and done here goes to main page-->
+{% endblock content %}
