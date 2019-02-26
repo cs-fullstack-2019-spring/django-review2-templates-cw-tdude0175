@@ -4,4 +4,4 @@ Finish the song application by finishing the song details page that takes a dyna
 
 Make it look nice :-)
 
-Challenge: Add a review page with your thoughts on the song (these can be a made up review, or not)
+Challenge: Add a review page with your thoughts on the song (these can be a made up review, or not) and link from main page.
